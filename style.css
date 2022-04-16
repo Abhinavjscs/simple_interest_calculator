@@ -1,0 +1,9 @@
+body {background-color:white;}
+h1{color:grey ;}
+#principal{
+	border-radius : 10px;
+}
+#ogn_amt,#rate_value,#new_amt,#total_time{
+	background-color : yellow;
+}
+

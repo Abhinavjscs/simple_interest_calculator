@@ -1,0 +1,23 @@
+<!doctype html>
+    <head>
+	<script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+	<title>Web APP - Simple Interest Calculator</title>
+    </head>
+    <body>
+        <p><b><h1>Simple Interest Calculator</h1></b></p>
+		<form id = "details">
+       <label for="pricipal"> Amount  &emsp; &emsp; <input type="text"  id="principal" onchange = "myfunction()">  <br/><br/>
+        <label for="rate"> 	Interest Rate  &emsp; &emsp; <input type="range" id="rate" value='1' min="0" onclick="myFunction()" max="40"><span id="rate_val"></span> <br/><br/>
+   <label for="years"> No. of Years &emsp; &emsp;<input type="number"  id="years">  <br/><br/>
+<br/>		
+
+        <button onclick="compute()">Compute</button>
+		<br/><br/>
+		<label for ="interest"> If you submit &emsp; <span id = "ogn_amt"></span>
+		<p>,at an interest of <span id = "rate_value"></span>% , </p>
+		<p>you will receive an amount of <span id = "new_amt"></span>,</p>
+		<p>in the year <span id = "total_time"></span></p>
+		</form>
+    </body>
+</html>
